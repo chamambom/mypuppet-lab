@@ -25,7 +25,7 @@ Use this on the initial puppet run, only. This is because for an existing repo, 
 vcsrepo {‘/etc/puppet':
   ensure   => latest,
   provider => git,
-  source   => 'https://token@liquidtelecom.kilnhg.com/Code/TeamZOL/Automation/ZOL-Puppet.git',
+  source   => 'https://token@url_to_your_git_repo.git',
 }
 Create a puppet module that runs cron pointing to the init.pp manifest to complete the workflow.
 Other 
