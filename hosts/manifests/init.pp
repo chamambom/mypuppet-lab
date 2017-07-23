@@ -1,3 +1,3 @@
-notify {
-  
+class hosts {
+
 }
