@@ -1,20 +1,19 @@
 class myservices {
 
+    package { 'vsftpd':
 
-  package { 'vsftpd':
+    ensure => 'present',
 
-  ensure => 'present',
+  }
 
-}
+    service { 'vsftpd':
 
-  service { 'vsftpd':
+    ensure => 'running',
 
-  ensure => 'running',
+    enable => true,
 
-  enable => true,
+    require => Package['vsftpd'],
 
-  require => Package['vsftpd'],
-
-}
+  }
 
 }
