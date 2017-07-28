@@ -4,7 +4,7 @@ class helloworld::motd {
     owner  => 'root',
     group  => 'root',
     mode    => '0644',
-    content => "hello, world!\n",
+    content => "Hello, Martin Chamambo!\n",
     }
 
  }
