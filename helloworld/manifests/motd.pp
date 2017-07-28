@@ -6,5 +6,8 @@ class helloworld::motd {
     mode    => '0644',
     content => "Hello, Martin Chamambo!\n",
     }
+    
+    notify { 'Notification to the clients':
+    } 
 
  }
