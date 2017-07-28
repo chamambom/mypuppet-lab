@@ -1,0 +1,6 @@
+class hosts {
+
+ package { 'vsftpd':
+    ensure => 'present',
+
+}

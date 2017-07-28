@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="installedFeatures">
+		<item value="com.puppetlabs.geppetto.product:4.3.1.v20150119-0753"/>
+		<item value="com.puppetlabs.geppetto.puppetdb:4.3.1.v20150117-1918"/>
+		<item value="com.puppetlabs.geppetto:4.3.1.v20150119-0753"/>
+		<item value="org.eclipse.egit:3.4.2.201412180340-r"/>
+		<item value="org.eclipse.emf.common.ui:2.9.0.v20141013-0308"/>
+		<item value="org.eclipse.emf.common:2.10.1.v20140901-1043"/>
+		<item value="org.eclipse.emf.ecore.edit:2.9.0.v20141013-0308"/>
+		<item value="org.eclipse.emf.ecore:2.10.1.v20140901-1043"/>
+		<item value="org.eclipse.emf.edit.ui:2.10.1.v20141013-0308"/>
+		<item value="org.eclipse.emf.edit:2.10.1.v20141013-0308"/>
+		<item value="org.eclipse.jgit:3.4.2.201412180340-r"/>
+		<item value="org.eclipse.rcp:4.4.0.v20140925-0400"/>
+		<item value="org.eclipse.team.svn:2.0.1.I20140907-1700"/>
+		<item value="org.polarion.eclipse.team.svn.connector.svnkit18:4.1.2.I20141224-1700"/>
+		<item value="org.polarion.eclipse.team.svn.connector:4.1.2.I20141224-1700"/>
+	</list>
+	<section name="NewWizardAction">
+		<item value="com.puppetlabs.geppetto.ui.NewPuppetModuleWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="com.puppetlabs.geppetto.ui.newWizardCategory"/>
+		</list>
+	</section>
+</section>
