@@ -11,16 +11,17 @@
 # Sample Usage:
 #
 class hardencron {
+  notify { 'Applying class hardencron':}
   
   file {"/etc/cron.deny":
-ensure => absent,
-}
+        ensure => absent,
+        }
  
-file {"/etc/cron.allow":
-ensure => present,
-owner => "root",
-group => "root",
-mode => "600"
-}
+  file {"/etc/cron.allow":
+        ensure => present,
+        owner => "root",
+        group => "root",
+        mode => "600"
+       }
 
 }
