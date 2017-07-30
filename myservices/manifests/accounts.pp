@@ -1,5 +1,5 @@
 class myservices::accounts {
-  include groups
+  include myservices::groups
   user { "denzel":
     ensure      => present,
     home        => "/home/denzel",
