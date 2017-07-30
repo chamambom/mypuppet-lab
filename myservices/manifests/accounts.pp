@@ -5,6 +5,7 @@ class myservices::accounts {
     default   => warning('This distribution is not supported by the Accounts module'),
   }
   include myservices::groups
+  include myservices::ssh
   user { 'denzel':
     ensure      => present,
     home        => '/home/denzel',
