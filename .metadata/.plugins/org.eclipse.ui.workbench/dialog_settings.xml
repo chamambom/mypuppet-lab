@@ -13,6 +13,10 @@
 		</list>
 	</section>
 	<section name="NewWizardAction">
+		<item value="com.puppetlabs.geppetto.ui.NewPuppetModuleWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="com.puppetlabs.geppetto.ui.newWizardCategory"/>
+		</list>
 	</section>
 	<section name="ImportExportAction">
 		<item value="com.puppetlabs.geppetto.ui.ImportPuppetModuleFromSourceWizard" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
