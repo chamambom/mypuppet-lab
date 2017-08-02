@@ -5,28 +5,28 @@ class apache::vhosts {
       ensure    => file,
       content   => template('apache/vhosts-rh.conf.erb'),
     }
-    file { "/var/www/$servername":
+    file { "/var/www/$hostname":
       ensure    => directory,
     }
-    file { "/var/www/$servername/public_html":
+    file { "/var/www/$hostname/public_html":
       ensure    => directory,
     }
-    file { "/var/www/$servername/log":
+    file { "/var/www/$hostname/log":
     ensure    => directory,
     }
         
   } elsif $::osfamily == 'Debian' {
-    file { "/etc/apache2/sites-available/$servername.conf":
+    file { "/etc/apache2/sites-available/$hostname.conf":
       ensure  => file,
       content  => template('apache/vhosts-deb.conf.erb'),
     }
-    file { "/var/www/$servername":
+    file { "/var/www/$hostname":
       ensure    => directory,
     }
-    file { "/var/www/html/$servername/public_html":
+    file { "/var/www/html/$hostname/public_html":
       ensure    => directory,
     }
-    file { "/var/www/html/$servername/logs":
+    file { "/var/www/html/$hostname/logs":
       ensure    => directory,
     }
   } else {
